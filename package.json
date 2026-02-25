@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "btoa": "^1.2.1",
-    "next": "13.5.4",
+    "next": "15.5.10",
     "react": "^18",
     "react-dom": "^18"
   },
