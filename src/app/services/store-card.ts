@@ -1,5 +1,5 @@
 const getStoreCard = (walletType: string, userId: string, token: string) => {
-    const url = 'http://localhost:3000/store-card'
+    const url = `${process.env.NEXT_PUBLIC_API_URL}/api/v1/store-card/${walletType}?userId=${userId}`;
 
     if (walletType === 'apple') {
         fetch(url, {
